@@ -36,3 +36,128 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  justify-content: center;
+  background-color: rgb(59, 56, 56);
+  width: 180px;
+  border: 1px solid black;
+  border-radius: 5%;
+  display: grid;
+  margin: auto;
+}
+
+.post{
+  width: 15px;
+  height: 150px;
+  background-color: rgb(59, 56, 56);
+  border: 1px solid black;
+  margin: 0 auto;
+  
+}
+
+.red {
+  background-color: red;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 5px rgb(41, 41, 41) solid;
+  opacity: 0.5;
+}
+
+.yellow{
+  background-color: yellow;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 5px rgb(41, 41, 41) solid;
+  opacity: 0.5;
+}
+
+.green{
+  background-color: rgb(3, 233, 3);
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 5px rgb(41, 41, 41) solid;
+  opacity: 0.5;
+}
+
+.redOn {
+  background-color: red;
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  border: 5px red solid;
+  opacity: 1;
+  color: #ffa502;
+  box-shadow: 0 0 60px #e8ca56;
+  text-shadow: 0 0 60px #e8ca56;
+}
+
+.yellowOn {
+  background-color: yellow;
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  border: 5px yellow solid;
+  opacity: 1;
+  color: #ffa502;
+  box-shadow: 0 0 60px #e8ca56;
+  text-shadow: 0 0 60px #e8ca56;
+}
+
+.greenOn {
+  background-color: rgb(2, 235, 33);
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  border: 5px rgb(2, 235, 33) solid;
+  opacity: 1;
+  color: #ffa502;
+  box-shadow: 0 0 60px #e8ca56;
+  text-shadow: 0 0 60px #e8ca56;
+}
+
+.purpleOn {
+  background-color: purple;
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  border: 5px purple solid;
+  opacity: 1;
+  color: #ffa502;
+  box-shadow: 0 0 60px #e8ca56;
+  text-shadow: 0 0 60px #e8ca56;
+}
+
+
+
+.purple{
+  background-color: purple;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 5px rgb(41, 41, 41) solid;
+  opacity: 0.5;
+}
+
+.purpleHide {
+  display: none;
+}
+
+button {
+  background-color: rgb(87, 87, 87);
+  color:white;
+  font-size: medium;
+  font-weight: bold;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 15px;
+  cursor: pointer;
+
+}
+
+button:hover {
+  background-color: #727579;
+}
